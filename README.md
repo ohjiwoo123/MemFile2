@@ -9,7 +9,7 @@
 TCHAR 말고 BYTE로 형변환해서 사용도 가능(아래링크 참고)  
 (참고) TCHAR 란 wide char 를 의미한다.(안시코드,유니코드 다 포괄)  
 https://github.com/ohjiwoo123/AsynciO/blob/master/AsynciO/AsynciODlg.cpp  
-3. 파일을 메모리처럼 사용한다.
+3. 파일을 메모리처럼 사용한다.  
 `<strcpy(PtrInFile, “hello”, 5);>`  
 4. 파일뷰를 닫는다.  
 `<UnmapViewOfFile(PtrInFile);>`
